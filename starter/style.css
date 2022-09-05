@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* first div */
+.firstdiv {
+  height: 600px;
+  /* border: 3px solid var(--black-color); */
+  display: flex;
+  margin-bottom: 100px;
+}
+.first-leftdiv {
+  width: 50%;
+  height: 100%;
+  background: white;
+  align-items: center;
+}
+.first-rightdiv {
+  height: 100%;
+  background-color: var(--main-color);
+  width: 50%;
+  /* background-image: url("./images/image1.jpg"); */
+  background: linear-gradient(
+      to right,
+      rgba(244, 107, 69, 0.3),
+      rgba(238, 168, 73, 0.3)
+    ),
+    url("./images/image1.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+}
+.first-leftdiv h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.first-leftdiv .column {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10%;
+  padding-top: 6%;
+  padding-bottom: 30px;
+}
+.link {
+  color: var(--main-color);
+}
+.secondheader {
+  padding-top: 2%;
+
+  padding-left: 10%;
+  padding-bottom: 30px;
+  font-weight: 900;
+}
+.firstp {
+  padding-left: 10%;
+  width: 60%;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 2%;
+}
+.empty-div {
+  border: 1px solid var(--main-color);
+  height: 2%;
+  width: 25%;
+  background-color: var(--main-color);
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.first-righth2 {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  padding-top: 6%;
+}
+.first-righth2 a {
+  text-decoration: none;
+  color: white;
+}
+/* second div */
+
+.seconddiv {
+  height: 500px;
+  /* border: 3px solid blue; */
+  display: flex;
+  margin-bottom: 70px;
+}
+.second-leftdiv {
+  width: 30%;
+  background-color: var(--gray-color);
+  height: 80%;
+  margin-top: 5%;
+  margin-left: 18%;
+  margin-right: 2%;
+}
+.second-rightdiv {
+  background-image: url("./images/image2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 40%;
+
+  height: 100%;
+}
+.second-leftdiv h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 7%;
+}
+
+.p1,
+.p2,
+.p3 {
+  width: 70%;
+  margin: 0 auto;
+
+  margin-bottom: 3%;
+  font-weight: 400;
+  font-size: 20px;
+}
+.second-leftdiv p {
+  width: 50%;
+}
+/* third div */
+
+.thirddiv {
+  height: 500px;
+  border: 3px solid black;
+  display: flex;
+}
