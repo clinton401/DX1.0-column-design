@@ -131,6 +131,57 @@
 
 .thirddiv {
   height: 500px;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   display: flex;
+  margin-bottom: 100px;
+}
+.third-leftdiv {
+    background-image: url("./images/image3.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
+    width: 30%;
+    margin-left: 20%;
+}
+.third-rightdiv {
+    background-color: var(--main-color);
+    /* border: 1px solid red; */
+    width: 30%;
+}
+.third-rightdiv p {
+    padding-top: 50px;
+    width: 50%;
+}
+
+/*footer section  */
+
+footer {
+    background-color: var(--main-color);
+    /* border: 1px solid black; */
+    height: 110px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+
+}
+footer h3 {
+
+    text-align: center;
+    padding-left: 30px;
+
+
+}
+.icon {
+    align-items: right;
+    display: flex;
+    padding-right: 30px;
+
+
+}
+.fontawesome {
+    padding-right: 5px;
+    font-size: 25px;
+    margin: 0 5px;
 }
