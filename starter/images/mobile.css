@@ -1,0 +1,38 @@
+
+
+@media screen and (max-width:550px) {
+    body{
+        background: black;
+    }
+
+    /* first section starts here */
+    .first-leftdiv{
+        width: 60%;
+        padding: 20px;
+
+    }
+    .first-rightdiv{
+        width: 40%;
+    }
+    .linkholder{
+        /* border: 3px solid black; */
+        flex-direction: column;
+        padding-left: 30px;
+    }
+    .linkholder h4 {
+        margin-bottom: 10px;
+    }
+    .first-leftdiv h1 {
+        font-size: 25px;
+    }
+    .line{
+        width: 200px;
+    }
+    /* first section ends here */
+    /* second section starts here */
+    .second-rightdiv {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    /* second section ends here */
+}
